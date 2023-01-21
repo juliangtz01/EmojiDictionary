@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.recyclerview_item_row.view.*
 
-class EmojiAdapter : RecyclerView.Adapter<EmojiAdapter.TextHolder>
+class EmojiAdapter : RecyclerView.Adapter<EmojiAdapter.TextHolder>()
 {
     class TextHolder(v: View) : RecyclerView.ViewHolder(v), View.OnClickListener
     {
